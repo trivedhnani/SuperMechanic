@@ -1,0 +1,32 @@
+{
+  "name": "supermechanic",
+  "version": "1.0.0",
+  "description": "Super Mechanic website",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch ./*.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trivedhnani/SuperMechanic.git"
+  },
+  "author": "Trivedh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trivedhnani/SuperMechanic/issues"
+  },
+  "homepage": "https://github.com/trivedhnani/SuperMechanic#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "nodemon": "^2.0.4",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.1.5",
+    "jest": "^26.0.1",
+    "supertest": "^4.0.2"
+  }
+}
